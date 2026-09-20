@@ -1,0 +1,324 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="Contact M. Sadhana, a Computer Science Engineering student interested in software development, web development, and UI/UX design.">
+
+    <meta name="author" content="M. Sadhana">
+
+    <title>Contact | M. Sadhana</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="js/script.js" defer></script>
+</head>
+
+<body>
+
+    <div class="portfolio-layout">
+
+        <!-- SIDEBAR -->
+        <aside class="sidebar" aria-label="Main navigation">
+
+            <div class="profile">
+
+                <div class="profile-avatar" aria-hidden="true">
+                    S
+                </div>
+
+                <h2>M. Sadhana</h2>
+
+                <p>Computer Science Engineering Student</p>
+
+            </div>
+
+
+            <!-- NAVIGATION -->
+            <nav aria-label="Primary navigation">
+
+                <a href="index.html">
+                    Home
+                </a>
+
+                <a href="about.html">
+                    About
+                </a>
+
+                <a href="projects.html">
+                    Projects
+                </a>
+
+                <a href="contact.html"
+                   class="active"
+                   aria-current="page">
+                    Contact
+                </a>
+
+            </nav>
+
+
+            <!-- SOCIAL LINKS -->
+            <div class="sidebar-footer">
+
+                <p>Let's connect</p>
+
+                <div class="social-links">
+
+                    <a href="https://github.com/Sadhana-0726"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       aria-label="Visit my GitHub profile">
+                        GitHub ↗
+                    </a>
+
+                    <a href="https://linkedin.com/in/sadhana-murali-82a08b328"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       aria-label="Visit my LinkedIn profile">
+                        LinkedIn ↗
+                    </a>
+
+                </div>
+                <button
+        id="theme-toggle"
+        class="theme-toggle"
+        type="button"
+        aria-label="Switch to light theme">
+        ☀ Light Mode
+    </button>
+            </div>
+
+        </aside>
+
+
+        <!-- MAIN CONTENT -->
+        <main class="main-content">
+
+            <!-- PAGE INTRODUCTION -->
+            <section class="page-heading"
+                     aria-labelledby="contact-title">
+
+                <span class="eyebrow">
+                    GET IN TOUCH
+                </span>
+
+                <h1 id="contact-title">
+                    Let's connect.
+                </h1>
+
+                <p class="page-intro">
+                    Have a question, collaboration idea, or opportunity?
+                    Feel free to reach out. I would be happy to connect.
+                </p>
+
+            </section>
+
+
+            <!-- CONTACT CONTENT -->
+            <section class="contact-grid"
+                     aria-label="Contact information and contact form">
+
+
+                <!-- CONTACT INFORMATION -->
+                <div class="contact-info">
+
+                    <div class="contact-card">
+
+                        <span class="contact-icon"
+                              aria-hidden="true">
+                            ✉
+                        </span>
+
+                        <div>
+
+                            <h2>Email</h2>
+
+                            <a href="mailto:sadhanamurali0726@gmail.com">
+                                sadhanamurali0726@gmail.com
+                            </a>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="contact-card">
+
+                        <span class="contact-icon"
+                              aria-hidden="true">
+                            ⌖
+                        </span>
+
+                        <div>
+
+                            <h2>Location</h2>
+
+                            <p>Chennai, India</p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="contact-card">
+
+                        <span class="contact-icon"
+                              aria-hidden="true">
+                            ↗
+                        </span>
+
+                        <div>
+
+                            <h2>Professional Profiles</h2>
+
+                            <div class="contact-social-links">
+
+                                <a href="https://github.com/Sadhana-0726"
+                                   target="_blank"
+                                   rel="noopener noreferrer">
+                                    GitHub
+                                </a>
+
+                                <a href="https://linkedin.com/in/sadhana-murali-82a08b328"
+                                   target="_blank"
+                                   rel="noopener noreferrer">
+                                    LinkedIn
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- CONTACT FORM -->
+                <div class="contact-form-container">
+
+                    <h2>Send a message</h2>
+
+                    <p>
+                        Fill out the form below. Your default email
+                        application will open with the message details.
+                    </p>
+
+
+                    <form action="mailto:sadhanamurali0726@gmail.com"
+                          method="post"
+                          enctype="text/plain"
+                          aria-label="Send me a message">
+
+
+                        <!-- NAME -->
+                        <div class="form-group">
+
+                            <label for="name">
+                                Your name
+                            </label>
+
+                            <input type="text"
+                                   id="name"
+                                   name="Name"
+                                   placeholder="Enter your name"
+                                   autocomplete="name"
+                                   required>
+
+                        </div>
+
+
+                        <!-- EMAIL -->
+                        <div class="form-group">
+
+                            <label for="email">
+                                Your email
+                            </label>
+
+                            <input type="email"
+                                   id="email"
+                                   name="Email"
+                                   placeholder="you@example.com"
+                                   autocomplete="email"
+                                   required>
+
+                        </div>
+
+
+                        <!-- SUBJECT -->
+                        <div class="form-group">
+
+                            <label for="subject">
+                                Subject
+                            </label>
+
+                            <input type="text"
+                                   id="subject"
+                                   name="Subject"
+                                   placeholder="What would you like to discuss?"
+                                   required>
+
+                        </div>
+
+
+                        <!-- MESSAGE -->
+                        <div class="form-group">
+
+                            <label for="message">
+                                Your message
+                            </label>
+
+                            <textarea id="message"
+                                      name="Message"
+                                      rows="6"
+                                      placeholder="Write your message here..."
+                                      required></textarea>
+
+                        </div>
+
+
+                        <!-- SUBMIT BUTTON -->
+                        <button type="submit"
+                                class="primary-button">
+                            Open Email App →
+                        </button>
+
+                    </form>
+
+
+                    <p class="form-note">
+                        This form uses your device's default email
+                        application. Messages are not stored on a server.
+                    </p>
+
+                </div>
+
+            </section>
+
+
+            <!-- FOOTER -->
+            <footer class="footer">
+
+                <p>
+                    © 2026 M. Sadhana. All rights reserved.
+                </p>
+
+                <p>
+                    Built with HTML5 & CSS3.
+                </p>
+
+            </footer>
+
+        </main>
+
+    </div>
+
+</body>
+
+</html>
